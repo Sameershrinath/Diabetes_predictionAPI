@@ -12,7 +12,7 @@ app=FastAPI()
 # Add CORS middleware to allow requests from HTML page
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # In production, replace with specific domains
+    allow_origins=["https://diabetes-predictionapi.onrender.com/"],  # In production, replace with specific domains
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
