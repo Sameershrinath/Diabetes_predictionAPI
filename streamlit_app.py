@@ -99,7 +99,7 @@ if st.sidebar.button("📋 Fill Sample Data"):
 
 # Server configuration
 st.sidebar.title("⚙️ Server Configuration")
-server_url = st.sidebar.text_input("Server URL", value="http://localhost:8000")
+server_url = st.sidebar.text_input("Server URL", value="https://diabetes-predictionapi.onrender.com")
 
 # Create input form
 st.header("📝 Enter Your Health Parameters")
